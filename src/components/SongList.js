@@ -31,5 +31,5 @@ const mapStateToProps = (state) => {
 };
 
 // Connect SongList component to mapStateToProps to get songs from state
-// Pass 'selectSong' action to 'connect' to be a part of props
+// Pass 'selectSong' action to 'connect'
 export default connect(mapStateToProps, { selectSong })(SongList);
